@@ -5,16 +5,45 @@
   left: 0;
   height: 100%;
   width: 265px;
-  background: #1C6BA0;
+  background: #FFFFFF;
   transition: width ease .5s;
+  box-shadow: 5px 8px 25px 0px grey;
+  position:fixed;
 
-  -webkit-transition: width ease .5s;
-  -moz-transition: width ease .5s;
-  -o-transition: width ease .5s;
 }
 
 #sidebar h1{
 
   font-family: 'Roboto', sans-serif;
   font-weight: 700;
+  color:white;
+}
+
+#sidebar ul {
+  
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  color: white;
+}
+
+.logo {
+    width: 250px;
+    height: 166x;
+    background-position: center;
+    background-size: cover;
+    margin-bottom: none;
+}
+
+.divider {
+    display: block;
+    margin-top:none;
+    margin-bottom: 1em;
+    margin-left: 20px;
+    margin-right: 20px;
+    border-style: inset;
+    border-width: 1px;
+}
+
+#options li {
+  font-family:sans-serif;
 }
