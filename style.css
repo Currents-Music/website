@@ -45,5 +45,23 @@
 }
 
 #options li {
-  font-family:sans-serif;
+  font-family:"trebuchet ms";
+  font-size:20px;
+  color:blue;
+  list-style-type: none;
+  margin-left:0px;
+}
+
+#options .one {
+  font-size:20px;
+}
+
+#options .two {
+  font-size:16px;
+}
+
+#options a:hover {
+  margin-left:10px;
+  text-decoration: none;
+  animation-duration:3s;
 }
