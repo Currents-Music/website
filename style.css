@@ -4,8 +4,8 @@
   top: 0;
   left: 0;
   height: 100%;
-  width: 20%;
-  background: #2C3539;
+  width: 265px;
+  background: #5F6364;
   transition: width ease .5s;
   position:fixed;
   z-index: 120;
@@ -15,21 +15,21 @@
 #sidebar h1{
 
   font-weight: 700;
-  color:white;
+  color:#2A5099;
 }
 
 #sidebar ul {
   
   font-weight: 700;
-  color: white;
+  color: #2A5099;
 }
 
 .logo {
-    width: 80%;
+    width: 90%;
     background-position: center;
     background-size: cover;
     margin-bottom: none;
-    margin-left:1%;
+    margin-left:3%;
 }
 
 .divider {
@@ -40,14 +40,14 @@
     margin-right: 20px;
     border-style: inset;
     border-width: 1px;
-    width:25%;
+    width:100px;
 }
 
 #sidebar #options li{
   list-style-type: none;
   margin-left: none;
   font-family: 'Montserrat', 'Arial';
-  color: white;
+  color: #2A5099;
   animation: shiftback 0.5s ease;
   animation-fill-mode: forwards;
   -webkit-animation: shiftback 0.5s ease;
@@ -79,12 +79,7 @@
 }
 
 #sidebar #options li:hover a{
-  color: #1cc4e7;
-  font-weight: bold;
-}
-
-#sidebar #options li:hover a{
-  color: #1cc4e7;
+  color: #2A5099;
   font-weight: bold;
 }
 
@@ -119,6 +114,8 @@
   100%{ transform: translateX(8%); }
 }
 
+/*
+
   @media all and (min-width: 50px) {  #options .one  {   font-size:0.05em;  line-height:0.05em} }
   @media all and (min-width: 100px) {  #options .one  {   font-size:0.1em;  line-height:0.1em} }
   @media all and (min-width: 200px) {  #options .one  {   font-size:0.2em;  line-height:0.2em} }
@@ -138,8 +135,31 @@
 	@media all and (min-width: 1500px) {  #options .one  { font-size:1.6em;  line-height:1.2em} }
 	@media all and (min-width: 1600px) {  #options .one  { font-size:1.7em;  line-height:1.3em} }
 	@media all and (min-width: 1700px) {  #options .one  { font-size:1.8em;  line-height:1.4em;} }
+	
+*/
+
+#options .one {
+  font-size:23px;
+  line-height:35px;
+}
 
 #options a:hover {
+  text-decoration: none;
+}
+
+#sidebar #other li 
+{
+  list-style-type: none;
+  margin-left: none;
+  font-family: 'Montserrat', 'Arial';
+}
+
+#other .one {
+  font-size:16px;
+  line-height:35px;
+}
+
+#other a:hover {
   text-decoration: none;
 }
 
@@ -162,12 +182,12 @@ tr{
   z-index: 2;
   float:right;
   position: fixed;
-  margin-left: 20%;
+  margin-left: 265px;
   height:100%;
-  width:80%;
+  width:calc(100% - 265px);
   padding: 1%;
   overflow: auto;
-  border: solid 2px #26ad80;
+  border: solid 7px #26ad80;
   background:#434343;
 }
 
