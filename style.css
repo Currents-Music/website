@@ -1,11 +1,10 @@
 #sidebar {
-
   position: fixed;
   top: 0;
   left: 0;
   height: 100%;
   width: 265px;
-  background: #5F6364;
+  background: #2C3539;
   transition: width ease .5s;
   position:fixed;
   z-index: 120;
@@ -19,7 +18,6 @@
 }
 
 #sidebar ul {
-  
   font-weight: 700;
   color: #2A5099;
 }
@@ -139,7 +137,7 @@
 */
 
 #options .one {
-  font-size:23px;
+  font-size:27px;
   line-height:35px;
 }
 
@@ -156,7 +154,7 @@
 
 #other .one {
   font-size:16px;
-  line-height:35px;
+  line-height:26px;
 }
 
 #other a:hover {
@@ -187,7 +185,7 @@ tr{
   width:calc(100% - 265px);
   padding: 1%;
   overflow: auto;
-  border: solid 7px #26ad80;
+  border-left: solid 7px #26ad80;
   background:#434343;
 }
 
